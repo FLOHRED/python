@@ -1,0 +1,4 @@
+texto = "hola"
+print (texto);
+texto = "Que tal"
+print(texto);
