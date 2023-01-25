@@ -1,0 +1,17 @@
+#En este segundo ejercicio, tendréis que crear un programa que tenga una clase llamada Alumno que tenga como atributos su nombre y su nota. 
+#Deberéis de definir los métodos para inicializar sus atributos, imprimirlos y mostrar un mensaje con el resultado de la nota y si ha aprobado o no.
+
+class Alumno:
+  def __init__(self, nombre, nota):
+    self.nombre = nombre
+    self.nota = nota
+  def estatus(self):
+    print("La nota de " + self.nombre + " es " + str(self.nota))
+    limite = 4
+    if self.nota > limite:
+      print(self.nombre + " ha aprobado.")
+    else:
+      print(self.nombre + " ha desaprobado.")
+
+A1 = Alumno("Juan", 6)
+A1.estatus()
