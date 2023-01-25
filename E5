@@ -1,0 +1,9 @@
+def  evaluarAño(año):
+  a=4
+  result = año % a
+  if result == 0:
+    print("Es año bisiesto")
+  else:
+    print("No es año bisiesto")
+
+evaluarAño(2021)
