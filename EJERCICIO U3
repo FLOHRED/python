@@ -1,0 +1,6 @@
+
+AlturaUsuario= float(input("Indica tu altura: "))
+PesoUsuario= float(input("Indica tu peso: "))
+Indice =  float(PesoUsuario /  (AlturaUsuario * AlturaUsuario))
+
+print("Tu indice es:",Indice)
