@@ -1,0 +1,9 @@
+  n=100
+  limite=0
+  lista =[]
+  while n>limite:
+    lista.append(n)
+    n = n-1
+  print(lista)
+
+    
